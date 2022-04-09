@@ -1,0 +1,11 @@
+{
+    "author": "wexer",
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Hexkeme",
+    "description": "Generate a color scheme based on a root color from an eye dropper, or a hex code.",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "color-wheel.png"
+    }
+}

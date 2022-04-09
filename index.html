@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Color API</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <input id="color-picker" class="color-picker" type="color" />
+            <input type="text" id="hex" spellcheck="false">
+            <select name="color-scheme" id="color-scheme">
+                <option value="monochrome" default>Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analog</option>
+                <option value="complement">Complementary</option>
+                <option value="analogic-complement">Analog-complementary</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="get-scheme-btn" type="submit">Na aztán!</button>
+        </div>
+
+        <div class="colors">
+            <div class="c0"></div>
+            <div class="c1"></div>
+            <div class="c2"></div>
+            <div class="c3"></div>
+            <div class="c4"></div>
+            <!-- <div class="c5"></div> -->
+        </div>
+        <div class="names">
+            <p class="p0"></p>
+            <p class="p1"></p>
+            <p class="p2"></p>
+            <p class="p3"></p>
+            <p class="p4"></p>
+            <!-- <p class="p5"></p> -->
+        </div>
+    </div>
+
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
